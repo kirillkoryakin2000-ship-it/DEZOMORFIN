@@ -39,28 +39,23 @@ class FormTest {
 //    System.out.println(!(nameFirst.equals("Dmitrii")));
 
         // Оператор instanceof
-            //println(nameFirst is String)
+        //println(nameFirst is String)
 
         // Тернарный оператор
-        val sex = 'w'
+        val sex = 'm'
 
-
-        var childName = if (sex == 'm')
-            "Valentin"
-        else
-            "Valentina"
-println(childName)
         // Управляющая конструкция if
-        if (sex == 'm') {
-            childName = "Valentin"
-        } else if (sex == 'w') {
-            childName = "Valentina"
-        } else {
-            println("((")
-        }
-
+        val a: String = if (sex == 'm') {
+                "Valentin"
+            } else if (sex == 'w') {
+                "Valentina"
+            } else {
+                "(("
+            }
+        println(a)
         // ключевое слово new
         val name = "Dima"
     }
+
 
 }
