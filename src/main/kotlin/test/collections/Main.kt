@@ -148,6 +148,7 @@ class HashMapExample {
             println("Человек с ID $id не найден, удаление невозможно")
         }
     }
+
 }
 
 fun main() {

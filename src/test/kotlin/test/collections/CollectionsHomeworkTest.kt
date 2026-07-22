@@ -3,6 +3,8 @@ package test.collections
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Assertions.*
+import org.junit.jupiter.api.Disabled
+import org.junit.jupiter.api.DisplayName
 
 class CarDequeExampleTest {
 
@@ -164,5 +166,20 @@ class HashMapExampleTest {
         assertDoesNotThrow {
             example.removePerson(999)
         }
+    }
+}
+@DisplayName("Тройные яйца 14")
+class SimpleTest {
+
+    @Test
+    @DisplayName("Двойные яйца 13")
+    fun simpleTest() {
+        println("Hello World");
+    }
+    @Disabled ("заебал")
+    @Test
+    @DisplayName("Двойные яйцв 12")
+    fun simpleTest2() {
+        println("Hello NIGG");
     }
 }
