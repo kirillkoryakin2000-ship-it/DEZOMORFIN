@@ -47,4 +47,12 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter:5.10.0")
     testImplementation("io.qameta.allure:allure-selenide:2.19.0")
     testImplementation("io.rest-assured:rest-assured:5.3.1")
+    implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.17.2")
+    testImplementation("io.qameta.allure:allure-rest-assured:2.29.0")
+}
+
+sourceSets {
+    test {
+        resources.srcDirs("src/test/resources")
+    }
 }
