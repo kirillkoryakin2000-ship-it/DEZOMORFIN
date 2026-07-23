@@ -3,7 +3,6 @@ import Models.CreateUserBodyModel
 import Models.CreateUserResponseModel
 import TestBase
 import helpers.step
-import io.restassured.RestAssured
 import io.restassured.RestAssured.given
 import models.lombok.GetUserResponseModel
 import org.hamcrest.CoreMatchers.equalTo
