@@ -46,4 +46,5 @@ dependencies {
     testImplementation("com.github.javafaker:javafaker:1.0.2")
     testImplementation("org.junit.jupiter:junit-jupiter:5.10.0")
     testImplementation("io.qameta.allure:allure-selenide:2.19.0")
+    testImplementation("io.rest-assured:rest-assured:5.3.1")
 }
