@@ -90,7 +90,7 @@ class ReqresTests : TestBase() {
         }
 
         val deletedRes: String = step("Delete created user") {
-            RestAssured.given(requestSpec)
+            given(requestSpec)
                 .delete("users/" + httpResponse.id)
                 .then()
                 .spec(noContentResponseSpec)

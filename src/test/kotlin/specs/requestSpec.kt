@@ -20,10 +20,6 @@ object ReqresSpec {
         .log(ALL)
         .build()
 
-    val badRequestResponseSpec: ResponseSpecification = ResponseSpecBuilder()
-        .expectStatusCode(400)
-        .log(ALL)
-        .build()
 
     val okResponseSpec: ResponseSpecification = ResponseSpecBuilder()
         .expectStatusCode(200)
