@@ -4,7 +4,7 @@ import Models.CreateUserResponseModel
 import TestBase
 import helpers.step
 import io.restassured.RestAssured.given
-import models.lombok.GetUserResponseModel
+import models.GetUserResponseModel
 import org.hamcrest.CoreMatchers.equalTo
 import org.hamcrest.CoreMatchers.notNullValue
 import org.hamcrest.MatcherAssert.assertThat
